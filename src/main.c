@@ -124,7 +124,7 @@ void writetodb(char data[])
         fclose(fp);
     }
     // open the file
-    fp = fopen(outputpath, "a+"); //copy together the filename and the path KÖNNTE PROBLEME GEBEN
+    fp = fopen(outputpath, "a+"); //copy together the filename and the path KÃ–NNTE PROBLEME GEBEN
 
 
     // print data into file
